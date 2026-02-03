@@ -72,7 +72,7 @@
    ```
 
 ---
-
+<!--
 ## 📊 Repository Stats
 
 <p align="left">
@@ -80,6 +80,7 @@
 </p>
 
 ---
+-->
 
 ## 🤝 Contributing
 

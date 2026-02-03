@@ -7,19 +7,19 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 </p>
 
-**HerbGuide** is a digital encyclopedia and management tool for medicinal plants. This project aims to preserve traditional botanical knowledge by providing a structured, easy-to-access platform for health enthusiasts, researchers, and botanists.
+**HerbGuide** is a digital platform designed for the identification and management of medicinal plants. It bridges the gap between traditional botanical knowledge and modern technology. 
 
-> 🌍 Part of the **[Catalogue des Plantes Médicinales](https://github.com/CataloguePlantesMedecinales)** organization.
+> 🌍 This project is a core part of the **[Catalogue des Plantes Médicinales](https://github.com/CataloguePlantesMedecinales)** organization.
 
 ---
 
 ## 🚀 Key Features
 
-- 🌿 **Extensive Database:** Browse a wide variety of medicinal plants with high-quality images.
-- 🔍 **Advanced Search:** Filter plants by family, chemical properties, or therapeutic uses.
-- 🧪 **Scientific Insights:** Detailed information on active compounds and scientific names.
-- 📱 **Mobile Friendly:** Designed to be used on the go for field identification.
-- 📝 **Safety First:** Includes dosage recommendations and contraindication warnings.
+- 🌿 **Botanical Encyclopedia:** Detailed profiles including species, family, and habitat.
+- 🧪 **Therapeutic Data:** Information on active compounds and medical applications.
+- 🔍 **Multi-criteria Search:** Find plants by ailment, chemical property, or name.
+- 📱 **Cross-Platform:** Experience across Mobile (Flutter) and Web (Angular/React).
+- 🔐 **Secure Backend:** Robust API management for plant data and user collections.
 
 ---
 
@@ -36,39 +36,42 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-### Tools
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+---
+
+## 🛠️ Areas for Amelioration (Planned Improvements)
+
+We are looking for help to improve the following areas:
+- [ ] **Database Optimization:** Better indexing for MySQL and MongoDB queries.
+- [ ] **UI/UX Refinement:** Modernizing the Angular dashboard and Flutter mobile interface.
+- [ ] **API Documentation:** Implementing Swagger/OpenAPI for the Spring Boot backend.
+- [ ] **Offline Mode:** Enabling offline access for the mobile app via local storage.
 
 ---
 <!--
 ## 📸 Project Preview
 
-| Search View | Plant Details | Discovery Mode |
+| Web Dashboard (Angular) | Mobile View (Flutter) | API (Spring Boot) |
 | :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/200x400?text=App+Search" width="200" /> | <img src="https://via.placeholder.com/200x400?text=Plant+Info" width="200" /> | <img src="https://via.placeholder.com/200x400?text=Camera+ID" width="200" /> |
+| <img src="https://via.placeholder.com/300x200?text=Angular+UI" width="300" /> | <img src="https://via.placeholder.com/150x300?text=Flutter+UI" width="150" /> | <img src="https://via.placeholder.com/300x200?text=Spring+API" width="300" /> |
 
 ---
 -->
 ## ⚙️ Installation & Setup
 
-1. **Clone the Repo**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/FatiZaha/HerbGuide.git
    ```
 
-2. **Install Dependencies**
-   ```bash
-   # For Flutter
-   flutter pub get
-   # OR for Node.js
-   npm install
-   ```
+2. **Backend Setup (Spring Boot)**
+   - Configure `application.properties` with your MySQL credentials.
+   - Run `./mvnw spring-boot:run`
 
-3. **Run the Project**
+3. **Frontend Setup (Angular)**
    ```bash
-   flutter run
+   cd frontend-angular
+   npm install
+   ng serve
    ```
 
 ---
@@ -81,14 +84,13 @@
 
 ---
 -->
-
 ## 🤝 Contributing
 
-We love contributions! 
+Since the project needs amelioration, **all contributions are highly appreciated!**
 1. **Fork** the project.
-2. **Create** your feature branch (`git checkout -b feature/NewPlantData`).
-3. **Commit** your changes (`git commit -m 'Add some feature'`).
-4. **Push** to the branch (`git push origin feature/NewPlantData`).
+2. **Create** your feature branch (`git checkout -b amelioration/YourFeature`).
+3. **Commit** your changes (`git commit -m 'Improve X feature'`).
+4. **Push** to the branch (`git push origin amelioration/YourFeature`).
 5. **Open** a Pull Request.
 
 ---
@@ -103,16 +105,15 @@ We love contributions!
 ---
 
 ## ⚠️ Medical Disclaimer
-*The information provided in HerbGuide is for educational and informational purposes only. It is not intended as medical advice. Always consult with a qualified healthcare professional or botanist before using any herbal treatments.*
+*The information provided in HerbGuide is for educational purposes only. It is not a substitute for professional medical advice. Always seek the advice of a physician regarding a medical condition.*
 
 ---
-<p align="center">Made with ❤️ for the Botanical Community</p>
+<p align="center">Seeking contributors to grow this botanical project 🌿</p>
 ```
-
----
 <!--
-### Pro-Tips for this README:
-*   **Screenshots:** In the "Project Preview" section, replace the `via.placeholder.com` links with actual images of your app. You can do this by dragging and dropping your images directly into the GitHub editor.
-*   **LinkedIn:** Don't forget to replace `YOUR_LINK_HERE` at the bottom with your actual LinkedIn profile link.
-*   **Stats:** The repository stats card will automatically update once you commit this file!
+### Key Changes Made:
+1.  **Status Badge:** Changed to an Orange color with the text "Stopped / Needs Amelioration".
+2.  **Alert Box:** Added a GitHub "Important" block at the top to explain the current state of the project.
+3.  **Amelioration List:** Added a checklist of technical improvements (Database, UI, API, etc.) to show exactly what needs work.
+4.  **Contributing Section:** Updated the branch naming suggestion to `amelioration/YourFeature` to match the project status.
 -->
